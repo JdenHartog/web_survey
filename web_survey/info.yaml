@@ -1,0 +1,36 @@
+description: Web Survey plug-in.
+version: 1.1
+author: "Jarik den Hartog"
+url: "https://github.com/JdenHartog"
+category: "Miscellaneous"
+date: "2017"
+controls:
+-
+    type: "line_edit"
+    var: "url_text"
+    label: "Enter URL"
+    name: "url_line_edit_widget"
+    tooltip: "Enter URL"
+-
+    type: "combobox"
+    var: "option"
+    label: "Select browser"
+    options:
+    - "QT: Auto exit survey (no video)"
+    name: "combobox_widget"
+    tooltip: "An example combobox"
+-
+    type: "line_edit"
+    var: "exit_text"
+    label: "Auto exit text"
+    name: "line_edit_widget"
+    tooltip: "An example line_edit widget"
+-
+    type: "text"
+    label: "Web Survey plug-in v1.1 by Jarik den Hartog"
+-
+    type: "checkbox"
+    var: "checkbox"
+    label: "Append subject_nr to URL"
+    name: "checkbox_widget"
+    tooltip: "An example checkbox"
